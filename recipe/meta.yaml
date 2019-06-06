@@ -1,12 +1,12 @@
 {% set name = "cdp" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
   url: https://github.com/CDAT/cdp/archive/v{{ version }}.tar.gz
-  sha256: cfb2ec371145a08b14c492fb3fa3936f0c2412155c40b4bab2a64410ea1edab3
+  sha256: 78b15a9e1d0d9afc55acdb20770faab3e110aba5edadef31a56f957465fc10c3
 
 build:
     number: 0
