@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About cdp
 =========
 
@@ -11,15 +7,27 @@ Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: The Community Diagnostics Package (CDP) is a framework for developing new climate diagnostics. CDP allows for a modular implementation of the components required for running diagnostics. The design of CDP consists of modules to handle the user-defined parameters, metrics, provenance, file I/O, output of results and algorithms for calculating the diagnostics.
+Summary: The Community Diagnostics Package (CDP) is a framework for developing new
+climate diagnostics. CDP allows for a modular implementation of the
+components required for running diagnostics. The design of CDP consists
+of modules to handle the user-defined parameters, metrics, provenance,
+file I/O, output of results and algorithms for calculating the diagnostics.
+
 
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cdp-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cdp-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3807&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cdp-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -114,5 +122,6 @@ Feedstock Maintainers
 =====================
 
 * [@doutriaux1](https://github.com/doutriaux1/)
+* [@xylar](https://github.com/xylar/)
 * [@zshaheen](https://github.com/zshaheen/)
 
