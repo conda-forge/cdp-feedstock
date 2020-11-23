@@ -120,6 +120,7 @@ Feedstock Maintainers
 =====================
 
 * [@doutriaux1](https://github.com/doutriaux1/)
+* [@forsyth2](https://github.com/forsyth2/)
 * [@xylar](https://github.com/xylar/)
 * [@zshaheen](https://github.com/zshaheen/)
 
