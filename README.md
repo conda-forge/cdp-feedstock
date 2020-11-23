@@ -5,15 +5,13 @@ Home: https://github.com/cdat/cdp
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cdp-feedstock/blob/master/LICENSE.txt)
 
 Summary: The Community Diagnostics Package (CDP) is a framework for developing new
 climate diagnostics. CDP allows for a modular implementation of the
 components required for running diagnostics. The design of CDP consists
 of modules to handle the user-defined parameters, metrics, provenance,
 file I/O, output of results and algorithms for calculating the diagnostics.
-
-
 
 
 Current build status
@@ -72,7 +70,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -122,6 +120,7 @@ Feedstock Maintainers
 =====================
 
 * [@doutriaux1](https://github.com/doutriaux1/)
+* [@forsyth2](https://github.com/forsyth2/)
 * [@xylar](https://github.com/xylar/)
 * [@zshaheen](https://github.com/zshaheen/)
 
