@@ -1,0 +1,12 @@
+diff -ruN cdp-1.7.0/cdp/cdp_parser.py cdp-1.7.0-patch/cdp/cdp_parser.py
+--- cdp-1.7.0/cdp/cdp_parser.py	2020-11-23 12:51:33.000000000 -0700
++++ cdp-1.7.0-patch/cdp/cdp_parser.py	2022-01-18 12:11:02.723236559 -0700
+@@ -407,7 +407,7 @@
+                 if not hasattr(param, v):
+                     raise RuntimeError("Parameters object has no attribute '{}' to granulate.".format(v))
+                 param_v = getattr(param, v)
+-                if not isinstance(param_v, collections.Iterable):
++                if not isinstance(param_v, collections.abc.Iterable):
+                     raise RuntimeError("Granulate option '{}' is not an iterable.".format(v))
+                 if param_v:  # Ignore [].
+                     vals_to_granulate[v] = param_v

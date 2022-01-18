@@ -7,9 +7,11 @@ package:
 source:
   url: https://github.com/CDAT/cdp/archive/v{{ version }}.tar.gz
   sha256: 9f6dfb78ab70750e31f421ff3253e19e31e8654c60ab7a30f760df17bb13d929
+  patches:
+    - 0001-collection-abc-Iterable.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
